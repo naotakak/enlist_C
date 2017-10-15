@@ -1,2 +1,5 @@
 all:
-	gcc -o
+	gcc enlist.c
+
+run: all
+	./a.out
